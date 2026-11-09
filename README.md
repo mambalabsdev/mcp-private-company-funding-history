@@ -93,10 +93,10 @@ Pay per event on Apify, billed to your Apify account. Prices in USD.
 |---|---|---|---|---|
 | `company-history`, one company with funding filings found, company row plus its first 25 round rows | $0.002 | $0.0019 | $0.0018 | $0.0017 |
 | `extra-rounds`, each further block of up to 25 round rows for one company | $0.002 | $0.0019 | $0.0018 | $0.0017 |
-| `lookup-no-funding`, one name or CIK looked up with no SEC match or no funding filings | $0.0008 | $0.00076 | $0.00072 | $0.00068 |
+| `lookup-no-funding`, one name or CIK looked up with no SEC match or no funding filings | $0.001 | $0.00095 | $0.0009 | $0.00085 |
 | `apify-actor-start`, per run start | $0.0012 | $0.0012 | $0.0012 | $0.0012 |
 
-A refused input and a refused SEC read are free. A name with no match or no funding filings is one 0.0008 USD lookup. Mamba Labs pays the platform costs of the run, Apify proxy traffic included.
+A refused input and a refused SEC read are free. A name with no match or no funding filings is one 0.001 USD lookup. Mamba Labs pays the platform costs of the run, Apify proxy traffic included.
 
 ## Full actor documentation
 
