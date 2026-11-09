@@ -1,0 +1,52 @@
+{
+  "name": "@mambalabsdev/mcp-private-company-funding-history",
+  "version": "1.0.0",
+  "description": "MCP server for Private Company Funding History. Every SEC Form D and Form C funding round a private US company filed, from EDGAR. Runs on Apify. Clay-ready output.",
+  "type": "module",
+  "bin": {
+    "mcp-private-company-funding-history": "./build/index.js"
+  },
+  "files": [
+    "build",
+    "README.md",
+    "LICENSE",
+    "SECURITY.md"
+  ],
+  "scripts": {
+    "build": "tsc && chmod +x build/index.js",
+    "test": "npm run build && node --test test/*.test.js",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "funding",
+    "form-d",
+    "sec-edgar",
+    "venture-capital",
+    "crunchbase-alternative",
+    "startups",
+    "fundraising",
+    "apify",
+    "clay"
+  ],
+  "author": "Mamba Labs <labs@mambamindsetgrowth.com>",
+  "license": "MIT",
+  "homepage": "https://apify.com/mambalabs/private-company-funding-history",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mambalabsdev/mcp-private-company-funding-history"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.32.2",
+    "zod": "^4.4.3"
+  },
+  "devDependencies": {
+    "@types/node": "^26.2.0",
+    "typescript": "5.9.3"
+  },
+  "mcpName": "com.mambabuilt/mcp-private-company-funding-history"
+}

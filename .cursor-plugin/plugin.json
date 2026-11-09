@@ -1,0 +1,35 @@
+{
+  "name": "mcp-private-company-funding-history",
+  "displayName": "Private Company Funding History",
+  "version": "1.0.0",
+  "description": "MCP server for Private Company Funding History. Every SEC Form D and Form C funding round a private US company filed, from EDGAR. Runs on Apify. Clay-ready output.",
+  "author": {
+    "name": "Mamba Labs",
+    "email": "labs@mambamindsetgrowth.com"
+  },
+  "homepage": "https://mambabuilt.com",
+  "repository": "https://github.com/mambalabsdev/mcp-private-company-funding-history",
+  "license": "MIT",
+  "category": "productivity",
+  "tags": [
+    "funding",
+    "form-d",
+    "sec-edgar",
+    "venture-capital",
+    "crunchbase-alternative",
+    "startups",
+    "fundraising"
+  ],
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "funding",
+    "form-d",
+    "sec-edgar",
+    "venture-capital",
+    "crunchbase-alternative",
+    "startups",
+    "fundraising"
+  ],
+  "mcpServers": ".mcp.json"
+}

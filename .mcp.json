@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "mamba-private-company-funding-history": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@mambalabsdev/mcp-private-company-funding-history"
+      ],
+      "env": {
+        "APIFY_TOKEN": "your-apify-token"
+      }
+    }
+  }
+}
