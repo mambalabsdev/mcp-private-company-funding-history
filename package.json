@@ -1,6 +1,6 @@
 {
   "name": "@mambalabsdev/mcp-private-company-funding-history",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "MCP server for Private Company Funding History. Every SEC Form D and Form C funding round a private US company filed, from EDGAR. Runs on Apify. Clay-ready output.",
   "type": "module",
   "bin": {
